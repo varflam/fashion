@@ -1,0 +1,40 @@
+.fashion
+    padding-bottom: 111px
+    .title
+        margin-top: 91px
+    &__cards
+        margin-top: 65px
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+    &__card
+        a        
+            display: block
+            overflow: hidden
+        img
+            transition: all 0.3s
+        a:hover
+            img
+                transform: scale(1.05)
+    &__brand
+        margin-top: 38px
+        font-weight: 300
+        font-size: 15px
+        line-height: 22px
+    &__name
+        font-weight: 700
+        font-size: 15px
+        line-height: 22px
+        transition: all 0.2s
+        &:hover
+            transform: scale(1.03)
+    &__prices
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        max-width: 145px
+    &__old-price
+        color: $main-color
+        text-decoration: line-through
+    &__new-price
+        color: darken(red, 10)

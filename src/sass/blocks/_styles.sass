@@ -1,0 +1,42 @@
+.styles
+    padding-bottom: 111px
+    &__wrapper
+        display: flex
+        flex-wrap: wrap
+    &__right
+        // position: relative
+        margin-left: 29px
+    &__bigger-photo
+        margin-top: 60px
+    &__bottom
+        display: flex
+        align-items: flex-end
+        margin-top: -63px
+        margin-left: 132px
+    &__smaller-photo
+        border-top: 20px solid #fff
+        border-left: 20px solid #fff
+        width: 227px
+        height: 281px
+    &__show
+        display: block
+        position: relative
+        font-size: 15px
+        line-height: 22px
+        margin-right: 13px
+        margin-bottom: 40px
+        &:hover
+            &::after
+                top: 23px
+        &::after
+            position: absolute
+            top: 20px
+            right: 0px
+            content: ''
+            width: 168px
+            height: 1px
+            background: $main-color
+            transition: all 0.3s
+    &__left
+        img
+            margin-top: 147px

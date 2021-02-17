@@ -1,0 +1,112 @@
+@media (max-width: 1100px)
+    .container
+        padding: 0 20px
+    .clothers
+        padding-top: 80px
+    .fashion
+        padding-bottom: 70px
+        .title
+            margin-top: 50px
+        &__cards
+            margin-top: 30px
+            justify-content: center
+            align-content: center
+        &__card
+            margin: 20px
+    .styles
+        &__wrapper
+            align-items: flex-end
+        &__left 
+            img
+                margin-top: 20px
+                width: 452px
+                height: 502px
+        &__bigger-photo
+            width: 414px
+            height: 351px
+        &__smaller-photo
+            display: none
+        &__bottom
+            margin-top: 0px
+        
+@media (max-width: 991px)
+    .nav
+        flex-direction: column
+        align-items: center
+        &__icons
+            margin-bottom: 15px
+    .styles
+        padding-bottom: 60px
+        &__wrapper
+            flex-direction: column
+            align-items: center
+        &__bottom
+            display: flex
+            justify-content: center
+            margin: 20px 0
+    .footer
+        padding-top: 60px
+        &__main
+            margin-bottom: 25px
+        &__left
+            max-width: none
+        &__right
+            margin-top: 25px
+            width: 100%
+        &__menu
+            margin-top: 25px
+        form
+            display: flex
+            justify-content: center
+
+@media (max-width: 600px)
+    .nav
+        flex-direction: row
+        &__logo
+            margin-top: 0
+        &__icons
+            margin-top: 10px
+    .nav__menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -150%
+        width: 100%
+        height: 100%
+        padding: 20px 15px
+        background-color: rgba(0, 0, 0, 0.8)
+        transition: 0.6s all
+        padding-inline-start: 0
+        &_active
+            left: 0
+            margin-block-start: 0
+        &-item
+            padding-right: 0
+            border: none
+            margin: 10px 0
+            a
+                color: #ffffff
+    .hamburger
+        display: block
+    .styles
+        &__left
+            img
+                width: 252px
+                height: 302px
+        &__bigger-photo
+                display: none
+    .promo__title,
+    .shopping__title
+        font-size: 40px
+        line-height: 40px
+    .promo__descr,
+    .promo__subtitle,
+    .shopping__subtitle
+        font-size: 16px
+    .clothers__man-big .btn
+        width: 127px
+        height: 35px
+        font-size: 12px
+    
